@@ -37,8 +37,7 @@ def crea_array_appis():
                                           linea[7],
                                           linea[8])
         arrayApps = {app.posicion(): app}
-        #si sale la misma posicion se re esciben no lo e controlado
-
+        #si sale la misma posicion se re esciben no lo e controlado #auxiliar
     return arrayApps
 
 

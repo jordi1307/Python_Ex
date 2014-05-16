@@ -29,4 +29,5 @@ class Identificador:
     def set_fecha_publicacion(self, fecha_publicacion):
         self.fecha_publicacion = fecha_publicacion
 
+    #auxiliar
 

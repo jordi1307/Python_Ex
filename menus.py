@@ -1,5 +1,5 @@
 __author__ = 'jor'
-import Items.aplicacions
+import Items.aplicacion
 
 
 def menus(num_menu):
@@ -33,8 +33,9 @@ def crea_array_appis():
     fiche = carrega_fiche(
         "C:\\Users\jor\Desktop\DAM\DAM2\phyton\Python\proyecto-pycharm\Python_Ex\BBDD\\aplicaciones.txt")
     for linea in fiche:
-        app = Items.aplicacions(linea[0], linea[1], linea[2], linea[3], linea[4], linea[5], linea[6], linea[7],
-                                linea[8])
+        app = Items.aplicacion.Aplicacion(linea[0], linea[1], linea[2], linea[3], linea[4], linea[5], linea[6],
+                                          linea[7],
+                                          linea[8])
         arrayApps = {app.posicion(): app}
         #si sale la misma posicion se re esciben no lo e controlado
 

@@ -3,3 +3,4 @@
 3- Mostra Identificacio  D'una App
 4- Descarga App
 5- Comenta App
+#auxiliar

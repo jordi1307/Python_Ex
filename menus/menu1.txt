@@ -1,0 +1,5 @@
+1- Mostra App
+2- Afegir App
+3- Mostra Identificacio  D'una App
+4- Descarga App
+5- Comenta App

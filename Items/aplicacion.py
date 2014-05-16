@@ -49,7 +49,7 @@ class Aplicacion(Items.Identificador.Identificador):
     def set_numero_de_comentarios(self, numero_de_comentarios):
         self.numero_de_comentarios = numero_de_comentarios
 
-
+    #auxiliar
     def To_setring_seif(self):
         linea = str(self.get_nombre()) + ":"
         linea += str(self.get_Proveedor()) + ":"
